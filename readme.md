@@ -39,6 +39,7 @@ Typescript is a superset of Javascript owned and maintained by Microsoft. It enh
 ## Our Conventions
 
 - No use of `any` unless absolutely necessary.
+- Primitive types should be used where possible.
 - All objects should be given an interface.
 - All components should have a single interface called `ComponentNameProps`.
 - All interface names _apart from_ components should have an I appended i.e. `IUser`.

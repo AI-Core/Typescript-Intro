@@ -4,6 +4,7 @@ const ExampleComponent = (props) => {
   const [count, setCount] = useState(0);
 
   const incrementCount = (e) => {
+    console.log(e.target);
     setCount(count + 1);
   };
 
