@@ -23,7 +23,7 @@ const getStyle = (props) => css`
   }
 `;
 
-const ClassCard = (props) => {
+const Component = (props) => {
   return (
     <div css={getStyle(props)}>
       <div className="title">Class</div>
@@ -66,4 +66,4 @@ const ClassCard = (props) => {
   );
 };
 
-export default ClassCard;
+export default Component;
