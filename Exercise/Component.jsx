@@ -1,5 +1,6 @@
 import React from "react";
 
+// using "css" will throw an error in the typescript file - just ignore it
 const getStyle = (props) => css`
   height: 100%;
   width: 100%;
